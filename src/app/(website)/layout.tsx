@@ -26,16 +26,16 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: "Umer Khan - Portfolio",
 		description: "Full-Stack Software Engineer based in Lahore, Pakistan.",
-		images: [{ url: "https://umer.dev/screenshot.png" }],
+		images: [{ url: "https://umerkhan.vercel.app/screenshot.png" }],
 		type: "website",
 		countryName: "Pakistan",
 		emails: ["umerk2829@gmail.com"],
 		phoneNumbers: ["+92 322 4201011"],
 		siteName: "Umer Khan - Portfolio",
-		url: "https://umer.dev",
+		url: "https://umerkhan.vercel.app/",
 	},
 	verification: {
-		google: "Z83sG39BadmJ0uyci-ndT3TCQ_sR_edLbjH43hNgRHs",
+		google: "WODsirGjRsoMGCS4RQX-nBN1TXRwD64HSmqeaOENc-c",
 	},
 };
 
@@ -64,12 +64,12 @@ const jsonLd: WithContext<Person> = {
 		addressRegion: "Lahore",
 		addressCountry: "Pakistan",
 	},
-	awards: ["National Champion of NASA Space Apps Challenge 2020"],
+	awards: ["International Kangaroo Contest"],
 	description: "Full-Stack Software Engineer based in Lahore, Pakistan.",
 	gender: "Male",
 	jobTitle: "Software Engineer",
-	image: "https://umer.dev/umer.jpeg",
-	url: "https://umer.dev",
+	image: "https://umerkhan.vercel.app/umer.jpeg",
+	url: "https://umerkhan.vercel.app/",
 };
 
 export default function RootLayout({
