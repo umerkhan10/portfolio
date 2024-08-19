@@ -12,12 +12,12 @@ export default function Clients() {
 				className="flex flex-col justify-center my-[20vh] space-y-4 max-w-4xl px-10 mx-auto"
 			>
 				<FadeOnScroll>
-					<motion.div className="space-y-4">
+				   <motion.div className="space-y-4">
 						<h3 className="text-2xl tracking-[0.6rem]">Projects</h3>
 						<p className="text-4xl sm:text-6xl child-gradient">
-						I've worked on <span>diverse</span> projects
-						delivering <span>innovative</span> solutions and pushing{" "}
-						<span>technology's boundaries</span>  for <span>impactful</span> results.
+							I&apos;ve worked on <span>diverse</span> projects
+							delivering <span>innovative</span> solutions and pushing{" "}
+							<span>technology&apos;s</span> boundaries for <span>impactful</span> results.
 						</p>
 					</motion.div>
 				</FadeOnScroll>
